@@ -8,7 +8,7 @@ namespace Microsoft.eShopWeb.ApplicationCore.Entities {
         public string PictureUri { get; set; }
         public int CatalogTypeId { get; set; }
         public CatalogType CatalogType { get; set; }
-        public bool ShowItens { get; set; } = false;
+        public bool ShowPrice { get; set; } = false;
         public int CatalogBrandId { get; set; }
         public CatalogBrand CatalogBrand { get; set; }
     }
